@@ -1,0 +1,208 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar-dark .navbar-brand {
+  color: #fff;
+}
+
+.navbar-dark .nav-link {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-dark .nav-link:hover {
+  color: rgba(255, 255, 255, 0.75);
+}
+.active {
+  color: white;
+  font-weight: bold;
+}
+.nav-bar {
+  background-color: rgb(3, 125, 125);
+  padding: 20px;
+  display: flex;
+}
+
+.text-pizza {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(3, 125, 125);
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .text-pizza {
+    font-size: 4rem;
+  }
+}
+
+.gap-2 {
+  gap: 2rem;
+  margin-left: 4px;
+}
+.pizza-name {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.pizza-price {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.truncate-3-lines {
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: calc(1.2em * 3); /* Adjust this value based on your line height */
+}
+
+table {
+  font-size: 1.5rem;
+}
+
+table img {
+  width: 3rem;
+  border-radius: 0.3rem;
+}
+
+table td {
+  vertical-align: middle;
+}
+
+table button {
+  background-color: #05a84b !important;
+  padding: 0.3rem 0.5rem !important;
+}
+
+table button:hover {
+  background-color: #ec0000 !important;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.pizza-banner {
+  background-image: url('./assets/img/pizzas-background.jpg'); 
+  background-position: center; 
+  background-size: cover; 
+  padding: 35px 0;
+  margin-bottom: 2rem;
+  color: white; 
+}
+
+
+.logo span {
+  font-size: 1rem;
+}
+
+.cart-price {
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  background-color: #00ffa6;
+  color: #000000;
+}
+
+.cart:hover,
+.cart-price:hover {
+  background-color: #05a84b !important;
+}
+
+.home-body {
+  display: flex;
+  flex-direction: column;
+  width: 21rem;
+  padding: 1.2rem;
+  border-radius: 0.3rem;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.home-body h1 {
+  font-size: 1.5rem;
+}
+
+.home-body p {
+  margin: 0;
+  font-size: 0.7rem;
+}
+
+ul {
+  margin: 0;
+}
+
+li {
+  font-size: 0.8rem;
+}
+
+button:hover {
+  background-color: #05a84b;
+}
+
+table {
+  font-size: 0.8rem;
+}
+
+table img {
+  width: 3rem;
+  border-radius: 0.3rem;
+}
+
+table td {
+  vertical-align: middle;
+}
+
+table button {
+  background-color: #05a84b !important;
+  padding: 0.3rem 0.5rem !important;
+}
+
+table button:hover {
+  background-color: #ec0000 !important;
+}
+
+@media screen and (min-width: 768px) {
+  .logo span {
+    font-size: 1.7rem;
+  }
+
+  .home {
+    background-size: 50rem;
+    background-position-y: 100%;
+  }
+
+  .home-body {
+    width: 36rem;
+  }
+
+  .home-body p {
+    font-size: 1rem;
+  }
+
+  .home-body h1 {
+    font-size: 3rem;
+  }
+
+  .carrito {
+    max-width: 70%;
+  }
+
+  table {
+    font-size: 1rem;
+  }
+
+  table img {
+    width: 5rem;
+    border-radius: 0.5rem;
+  }
+}
